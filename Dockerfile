@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM nginx:stable-alpine
 
 RUN mkdir -p /data/nginx/cache
 RUN chmod 777 -R /data/nginx/cache
